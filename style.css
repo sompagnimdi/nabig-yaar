@@ -76,6 +76,26 @@ header .fa-bars{
     border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
 }
+.home{
+    display: flex;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CQDEO83utmrNSsVt4QtJrmGqM2Dg0gej5g&usqp=CAU") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 50rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+.home .content span{
+    font-size: 3.5rem;
+    color: var(--pink);
+}
+
+
 
 
 
@@ -102,6 +122,15 @@ header .fa-bars{
         right: 0;
         background: #eee;
         border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    section{
+        padding: 2rem 9%;
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     header .navbar a{
         margin: 1.5rem;
@@ -111,3 +140,10 @@ header .fa-bars{
         display: block;
     }
 }
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
+
