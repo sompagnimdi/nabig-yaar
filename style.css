@@ -93,6 +93,15 @@ header .fa-bars{
 .home .content span{
     font-size: 3.5rem;
     color: var(--pink);
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 3.5rem;
+    color: #999;
+    padding: 1rem;
+    line-height: 1.5;
 }
 
 
