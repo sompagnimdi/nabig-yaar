@@ -20,6 +20,34 @@ html{
     scroll-padding-top: 6rem;
     overflow-x: hidden;
 }
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
+.heading span{
+    color: var(--pink);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background: var(--pink);
+}
 
 header{
     position: fixed;
@@ -79,7 +107,8 @@ header .fa-bars{
 .home{
     display: flex;
     align-items: center;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CQDEO83utmrNSsVt4QtJrmGqM2Dg0gej5g&usqp=CAU") no-repeat;
+    min-height: 100vh;
+    background: url(./img/6-National-Flower-Day-1200x834.jpg.webp) no-repeat; 
     background-size: cover;
     background-position: center;
 }
@@ -93,16 +122,42 @@ header .fa-bars{
 .home .content span{
     font-size: 3.5rem;
     color: var(--pink);
-    padding: 1rem;
+    padding: 1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
     font-size: 3.5rem;
     color: #999;
-    padding: 1rem;
+    padding: 1rem 0;
     line-height: 1.5;
 }
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .video-container{
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -117,6 +172,12 @@ header .fa-bars{
     
     header{
         padding: 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+    .home{
+        background-position: left;
     }
     
 }
@@ -148,11 +209,20 @@ header .fa-bars{
         border: .1rem solid rgba(0, 0, 0, .1);
         display: block;
     }
+    .home .content h3{
+        font-size: 5rem;
+    }
+    .home .content span{
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width:450px){
     html{
         font-size: 50%;
+    }
+    .heading{
+        font-size: 3rem;
     }
 }
 
