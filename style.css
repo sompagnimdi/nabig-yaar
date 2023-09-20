@@ -295,6 +295,16 @@ header .fa-bars{
     font-weight: lighter;
   text-decoration: line-through;
 }
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+
+
+
 
 
 
