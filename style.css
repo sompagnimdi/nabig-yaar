@@ -306,6 +306,7 @@ header .fa-bars{
     border-radius: .5rem;
     padding: 3rem 2rem;
     position: relative;
+    border: .1rem solid rgba(0, 0, 0, .1);
 }
 .review .box-container .box .fa-quote-right{
     position: absolute;
@@ -336,6 +337,14 @@ header .fa-bars{
     border-radius: 50%;
     object-fit: cover;
     margin-right: 1rem;
+}
+.review .box-container .box .user h3{
+    font-size: 2rem;
+    color: #333;
+}
+.review .box-container .box .user span{
+    font-size: 1.5rem;
+    color: #999;
 }
 
 
