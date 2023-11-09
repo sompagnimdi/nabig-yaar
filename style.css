@@ -425,9 +425,17 @@ header .fa-bars{
 .footer .credit span{
     color: var(--pink);
 }
-
-
-
+.test{
+    background: #666;
+    border: #eee;
+    align-items: center;
+}
+.testing{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: inline-flex;
+}
 
 
 
