@@ -441,8 +441,12 @@ header .fa-bars{
     font-size: xx-large;
     padding: 25px;
 }
-
-
+.brics{
+    background: #e84393;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
 
 
 
